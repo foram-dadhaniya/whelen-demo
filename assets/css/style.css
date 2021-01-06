@@ -1,0 +1,229 @@
+/**************************************
+
+Template Name: knockout | Login and Register Form Html Templates
+Description: Creative & Exclusive Login Registration Template
+Author: Flexwebsystem
+Version: 1.1
+
+======================================
+        Table Of Contents
+======================================
+1. Typography
+2. Default Style
+3.
+*/
+
+/*=======================================================================
+1. Typography
+=========================================================================*/
+body, html {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    margin: 0 0 20px 0;
+}
+
+h1,
+h2 {
+    line-height: 1.2;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+@media only screen and (max-width: 1199px) {
+    h1 {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+h2 {
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 1199px) {
+    h2 {
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    h2 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h2 {
+        font-size: 22px;
+    }
+}
+
+h3 {
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 991px) {
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h3 {
+        font-size: 18px;
+    }
+}
+
+h4 {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    h4 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h4 {
+        font-size: 16px;
+    }
+}
+
+h5 {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 991px) {
+    h5 {
+        font-size: 16px;
+    }
+}
+
+/*=======================================================================
+2. Default Style
+=========================================================================*/
+a {
+    text-decoration: none;
+}
+
+a:active,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a:active,
+a:hover,
+a:focus {
+    outline: 0 none;
+}
+
+/*=======================================================================
+3. Screen One
+=========================================================================*/
+.login-block{
+    background: #252525 0 0 no-repeat padding-box;
+    box-shadow: 0 0 50px #00000080;
+    border-radius: 50px;
+    padding: 2rem 6rem;
+    margin: 3rem 0;
+}
+
+#screen1 .title h1{
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+}
+
+#screen1 .form-group label{
+    text-transform: uppercase;
+}
+
+#screen1 .btn{
+    box-shadow: 0 0 10px #00000033;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+.bg-red{
+    background: #E72729;
+}
+
+.bg-black{
+    background: black;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .login-block {
+        padding: 2rem 3rem;
+        margin: 3rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .login-block {
+        margin: 1rem;
+    }
+    .login-block .buttons{
+        flex-direction: column;
+    }
+    .login-block .buttons .btn{
+        margin: 0 0 1rem 0 !important;
+    }
+    #screen1 .buttons{
+        margin-top: 2rem !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .login-block {
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 30px;
+    }
+    #screen1 .title h1{
+        font-size: 25px;
+    }
+}
